@@ -1,5 +1,14 @@
-var myObj = { 
-    "name":"John", 
-    "age":31, 
-    "city":"New York"
- };
+var myObj = [{ 
+    "home":{
+        "navbtn": "home"
+    }, 
+    "resume":{
+        "navbtn": "resume"
+    }, 
+    "portfolio":{
+        "navbtn": "portfolio"
+    }, 
+    "contact": {
+        "navbtn": "contact"
+    }
+ }];

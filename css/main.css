@@ -1,1 +1,19 @@
 /*CSS */
+
+/* Mobile */
+
+
+
+
+
+
+/*Tablet*/
+@media (min-width: 768px){
+/* Code in here  */
+}
+
+
+/* Desktop */
+@media (min-width: 900px){
+    /* Code in here */
+}
