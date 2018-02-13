@@ -2,10 +2,40 @@
 
 /* Mobile */
 
+.nav {}
+
+.hamburger{}
+
+.header-logo{}
+
+.nav-btn,
+.nav-btn a {}
+
+ul lo li {}
+
+.banner-slideshow{}
+
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4 {}
+
+.click-slide {}
+
+.prev-arrow,
+.next-arrow {}
 
 
+.prev-arrow {}
+.next-arrow {}
 
+#home-section {}
+#about-section {}
+#resume-section {}
+#portfolio-section {}
+#contact-section {}
 
+.footer {}
 
 /*Tablet*/
 @media (min-width: 768px){
