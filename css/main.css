@@ -15,12 +15,15 @@ ul lo li {}
 
 .banner-slideshow{}
 
+.click-slide {}
+
+.click-slide,
+.banner-slideshow,
 .slide-1,
 .slide-2,
 .slide-3,
 .slide-4 {}
 
-.click-slide {}
 
 .prev-arrow,
 .next-arrow {}
