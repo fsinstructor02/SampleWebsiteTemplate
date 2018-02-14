@@ -1,17 +1,58 @@
 /*CSS */
 
-/* Mobile */
 
-.nav {}
+/* Mobile */
+ 
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 25px 0;
+    background-color: white;
+    box-shadow:  4px 3px 4px #ccc;
+    overflow: hidden;
+}
+
+.nav-btnC {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    /* overflow: hidden; */
+
+ }
 
 .hamburger{}
 
-.header-logo{}
+.header-logo{
+    height: 75px;
+    width: 75px;
+    border: #ccc 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
 
 .nav-btn,
-.nav-btn a {}
+.nav-btn a {} 
 
-ul lo li {}
+lo {
+
+}
+
+
+ul lo li {
+     display: flex;
+    flex-direction: column;
+    list-style-image: none !important;
+}
+
+ li{
+    list-style-image: none !important;
+}
+
+
 
 .banner-slideshow{}
 
@@ -38,15 +79,15 @@ ul lo li {}
 #portfolio-section {}
 #contact-section {}
 
-.footer {}
+.footer {} 
 
 /*Tablet*/
 @media (min-width: 768px){
-/* Code in here  */
+
 }
 
 
 /* Desktop */
 @media (min-width: 900px){
-    /* Code in here */
+   
 }
