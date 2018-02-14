@@ -54,24 +54,56 @@ ul lo li {
 
 
 
-.banner-slideshow{}
+.banner-slideshow{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+}
 
-.click-slide {}
+.click-slide {
+    position: absolute;
+    /* height: 100%;
+    width: 100%; */
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+}
 
 .click-slide,
 .banner-slideshow,
 .slide-1,
 .slide-2,
 .slide-3,
-.slide-4 {}
+.slide-4 {
+    height: 100%;
+    width: 100%;
+}
 
 
 .prev-arrow,
-.next-arrow {}
+.next-arrow {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: #000 1px solid;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 9;
+    top: 45%;
+    background-color: yellow;
+}
 
 
-.prev-arrow {}
-.next-arrow {}
+.prev-arrow {
+    left: 0px;
+}
+.next-arrow {
+    right: 0px;
+}
 
 #home-section {}
 #about-section {}
