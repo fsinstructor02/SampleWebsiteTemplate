@@ -1,0 +1,8 @@
+*node_modules
+*src/scss/._.DS_Store
+* src/scss/.DS_Store
+* src/.DS_Store
+* dist/.DS_Store
+* dist/._.DS_Store
+*src/js/.DS_Store
+*src/js/._.DS_Store
